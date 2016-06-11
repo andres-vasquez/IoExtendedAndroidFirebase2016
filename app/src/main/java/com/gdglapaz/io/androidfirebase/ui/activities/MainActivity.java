@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         new FirebaseController(new FirebaseController.DataChanges() {
             @Override
             public void onDataChanged(List<Participantes> lstParticipantesRecibidos){
-                //lstParticipantes.clear();
+                lstParticipantes.clear();
                 lstParticipantes.addAll(lstParticipantesRecibidos);
                 adapter.notifyDataSetChanged();
             }
