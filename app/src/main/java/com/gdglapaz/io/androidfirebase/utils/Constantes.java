@@ -8,4 +8,6 @@ import com.gdglapaz.io.androidfirebase.BuildConfig;
 public class Constantes {
 
     public static final String FIREBASE_URL= BuildConfig.UNIQUE_FIREBASE_ROOT_URL;
+
+    public static final String URL_LISTA= "lstParticipante";
 }

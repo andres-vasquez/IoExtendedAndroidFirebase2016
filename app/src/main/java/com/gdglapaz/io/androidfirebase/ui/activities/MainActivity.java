@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.firebase.client.Firebase;
 import com.gdglapaz.io.androidfirebase.R;
 import com.gdglapaz.io.androidfirebase.controller.FirebaseController;
 import com.gdglapaz.io.androidfirebase.model.Participantes;
@@ -44,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
         /* FIREBASE URL */
         txtFirebaseUrl.setText(Constantes.FIREBASE_URL);
 
+        //Paso 1
+        Firebase.setAndroidContext(context);
+
         //Nuevo participante
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         new FirebaseController(new FirebaseController.DataChanges() {
             @Override
             public void onDataChanged(List<Participantes> lstParticipantesRecibidos){
-                lstParticipantes.clear();
+                //lstParticipantes.clear();
                 lstParticipantes.addAll(lstParticipantesRecibidos);
                 adapter.notifyDataSetChanged();
             }

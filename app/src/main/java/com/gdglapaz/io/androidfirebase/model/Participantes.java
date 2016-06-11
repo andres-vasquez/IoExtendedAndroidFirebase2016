@@ -5,7 +5,7 @@ package com.gdglapaz.io.androidfirebase.model;
  */
 public class Participantes {
 
-    public int ci;
+    public long ci;
     public String nombre;
     public String email;
     public int edad;
@@ -13,18 +13,18 @@ public class Participantes {
     public Participantes() {
     }
 
-    public Participantes(int ci, String nombre, String email, int edad) {
+    public Participantes(long ci, String nombre, String email, int edad) {
         this.ci = ci;
         this.nombre = nombre;
         this.email = email;
         this.edad = edad;
     }
 
-    public int getCi() {
+    public long getCi() {
         return ci;
     }
 
-    public void setCi(int ci) {
+    public void setCi(long ci) {
         this.ci = ci;
     }
 

@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
             android:ems="15"
-            android:hint="@string/edad" />
+            android:hint="@string/email" />
 
     </android.support.design.widget.TextInputLayout>
 

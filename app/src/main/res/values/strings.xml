@@ -6,6 +6,7 @@
 
     <string name="ci">CI</string>
     <string name="nombre">Nombre</string>
+    <string name="email">Email</string>
     <string name="edad">Edad</string>
     <string name="enviar">Enviar</string>
 </resources>
