@@ -38,6 +38,7 @@ buildTypes.each{
   7. Dale Play en la App y verifica como es:
   8. Ingresa a controller/FirebaseController.java edita el método enviarParticipantes(Participantes participante):
   <br/>
+
     ```java
      Firebase ref=new Firebase(Constantes.FIREBASE_URL);
      Firebase lstParticipantesRef=ref.child(Constantes.URL_LISTA);
