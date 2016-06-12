@@ -2,8 +2,8 @@
 
 Android + Firebase Codelab for Google IO Extended La Paz 2016
 
-![alt text](https://github.com/andres-vasquez/IoExtendedAndroidFirebase2016/tree/master/capturas/home.png "Home")
-![alt text](https://github.com/andres-vasquez/IoExtendedAndroidFirebase2016/tree/master/capturas/agregar_dialogo.png "Agregar")
+![Home](https://raw.githubusercontent.com/andres-vasquez/IoExtendedAndroidFirebase2016/master/capturas/home.png "Home")
+![Add dialog](https://raw.githubusercontent.com/andres-vasquez/IoExtendedAndroidFirebase2016/master/capturas/agregar_dialogo.png "Agregar")
 
 Pasos para el codelab.
 Pasos:
