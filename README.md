@@ -2,8 +2,8 @@
 
 Android + Firebase Codelab for Google IO Extended La Paz 2016
 
-![alt text](https://github.com/andres-vasquez/IoExtendedAndroidFirebase2016/capturas/home.png "Home")
-![alt text](https://github.com/andres-vasquez/IoExtendedAndroidFirebase2016/capturas/agregar_dialogo.png "Agregar")
+![alt text](https://github.com/andres-vasquez/IoExtendedAndroidFirebase2016/tree/master/capturas/home.png "Home")
+![alt text](https://github.com/andres-vasquez/IoExtendedAndroidFirebase2016/tree/master/capturas/agregar_dialogo.png "Agregar")
 
 Pasos para el codelab.
 Pasos:
@@ -16,7 +16,7 @@ Pasos:
     UniqueFirebaseRootUrl="https://codelabiotdgdlapaz.firebaseIO.com/"
     ```
   5. Abre build.gradle de Module:App y asegúrate que estén las líneas:
-```java
+    ```java
  buildTypes {
         ...
     }
@@ -29,21 +29,21 @@ buildTypes.each{
         exclude 'META-INF/LICENSE-FIREBASE.txt'
         exclude 'META-INF/NOTICE'
     }
-```
+    ```
   6. En el mismo archivo verifica que esté la dependencia de Firebase:
- ```java
+    ```java
   compile 'com.firebase:firebase-client-android:2.5.2+'
-```
+    ```
 
   7. Dale Play en la App y verifica como es:
   8. Ingresa a controller/FirebaseController.java edita el método enviarParticipantes(Participantes participante)
-```java
+    ```java
      Firebase ref=new Firebase(Constantes.FIREBASE_URL);
      Firebase lstParticipantesRef=ref.child(Constantes.URL_LISTA);
      lstParticipantesRef.push().setValue(participante);
-```
+    ```
   9. Ingresa a controller/FirebaseController.java edita el método recibirParticipantes()
-```java
+    ```java
     Firebase ref=new Firebase(Constantes.FIREBASE_URL);
     Firebase lstParticipantesRef=ref.child(Constantes.URL_LISTA);
 
@@ -61,7 +61,7 @@ buildTypes.each{
     public void onCancelled(FirebaseError firebaseError) {
     }
     });
-```
+    ```
   10. Prueba la App y pruebas tus conocimientos intentando:
   ⋅⋅* Editar los participantes.
   ⋅⋅* Eliminar participantes.
