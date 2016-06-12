@@ -2,6 +2,9 @@
 
 Android + Firebase Codelab for Google IO Extended La Paz 2016
 
+![alt text](https://github.com/andres-vasquez/IoExtendedAndroidFirebase2016/capturas/home.png "Home")
+![alt text](https://github.com/andres-vasquez/IoExtendedAndroidFirebase2016/capturas/agregar_dialogo.png "Agregar")
+
 Pasos para el codelab.
 Pasos:
   1. Ingresa a firebase.com y accede con tu cuenta de google.
@@ -9,9 +12,9 @@ Pasos:
   Ex. App Name: codelabiotdgdlapaz, App url: https://codelabiotdgdlapaz.firebaseIO.com
   3. Se habilitará la opción Manage App, dale click para ingresar al Dashboard del proyecto. Quédate en esa sección!
   4. Abre el código fuente de la App y dirígete a gradle.properties y copia la url de tu proyecto en la variable UniqueFirebaseRootUrl
-```java
-UniqueFirebaseRootUrl="https://codelabiotdgdlapaz.firebaseIO.com/"
-```
+    ```java
+    UniqueFirebaseRootUrl="https://codelabiotdgdlapaz.firebaseIO.com/"
+    ```
   5. Abre build.gradle de Module:App y asegúrate que estén las líneas:
 ```java
  buildTypes {

@@ -4,44 +4,29 @@
     api-level="22"
     density="560dpi"
     format="7"
-    timestamp="184497512113202"
-    verifier="COMPATIBLE" >
+    timestamp="189817175213595" >
 
     <task
         name="javac"
-        duration="99" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="564" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="7" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/Users/andresvasquez/AndroidStudioProjects/codelab/AndroidFirebase/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/andresvasquez/AndroidStudioProjects/codelab/AndroidFirebase/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="184110915942250" >
+    <build timestamp="189817175213595" >
         <artifact
             location="/Users/andresvasquez/AndroidStudioProjects/codelab/AndroidFirebase/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="184406881184608"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="/Users/andresvasquez/AndroidStudioProjects/codelab/AndroidFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="184497512113202"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/andresvasquez/AndroidStudioProjects/codelab/AndroidFirebase/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
