@@ -11,7 +11,7 @@ Pasos:
   2. Llena los campos App Name y App URL y dale CREATE NEW APP.
   Ex. App Name: codelabiotdgdlapaz, App url: https://codelabiotdgdlapaz.firebaseIO.com
   3. Se habilitará la opción Manage App, dale click para ingresar al Dashboard del proyecto. Quédate en esa sección!
-  4. Abre el código fuente de la App y dirígete a gradle.properties y copia la url de tu proyecto en la variable UniqueFirebaseRootUrl
+  4. Abre el código fuente de la App y dirígete a gradle.properties y copia la url de tu proyecto en la variable UniqueFirebaseRootUrl:
     ```java
     UniqueFirebaseRootUrl="https://codelabiotdgdlapaz.firebaseIO.com/"
     ```
@@ -36,13 +36,15 @@ buildTypes.each{
     ```
 
   7. Dale Play en la App y verifica como es:
-  8. Ingresa a controller/FirebaseController.java edita el método enviarParticipantes(Participantes participante)
+  8. Ingresa a controller/FirebaseController.java edita el método enviarParticipantes(Participantes participante):
+  <br/>
     ```java
      Firebase ref=new Firebase(Constantes.FIREBASE_URL);
      Firebase lstParticipantesRef=ref.child(Constantes.URL_LISTA);
      lstParticipantesRef.push().setValue(participante);
     ```
-  9. Ingresa a controller/FirebaseController.java edita el método recibirParticipantes()
+  9. Ingresa a controller/FirebaseController.java edita el método recibirParticipantes():
+
     ```java
     Firebase ref=new Firebase(Constantes.FIREBASE_URL);
     Firebase lstParticipantesRef=ref.child(Constantes.URL_LISTA);
@@ -62,9 +64,7 @@ buildTypes.each{
     }
     });
     ```
-  10. Prueba la App y pruebas tus conocimientos intentando:
-  ⋅⋅* Editar los participantes.
-  ⋅⋅* Eliminar participantes.
+  10. Prueba la App y pruebas tus conocimientos intentando:  <br/>Editar los participantes.  <br/>Eliminar participantes.
 
 Gracias, un saludo!
 
