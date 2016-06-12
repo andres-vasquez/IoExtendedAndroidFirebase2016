@@ -5,7 +5,7 @@ Android + Firebase Codelab for Google IO Extended La Paz 2016
 ![Home](https://raw.githubusercontent.com/andres-vasquez/IoExtendedAndroidFirebase2016/master/capturas/home.png "Home")
 ![Add dialog](https://raw.githubusercontent.com/andres-vasquez/IoExtendedAndroidFirebase2016/master/capturas/agregar_dialogo.png "Agregar")
 
-Pasos para participar del codelab. <br/>
+Participa del codelab. <br/>
 Pasos:
   1. Ingresa a firebase.com y accede con tu cuenta de google.
   2. Llena los campos App Name y App URL y dale CREATE NEW APP. <br/>
